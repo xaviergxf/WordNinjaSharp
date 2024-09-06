@@ -95,6 +95,6 @@ public class WordNinjaTest
     [TestMethod]
     public void Split_NullInputString_ThrowsArgumentException()
     {
-        Assert.ThrowsException<ArgumentException>(() => WordNinja.Split(null));
+        Assert.ThrowsException<ArgumentException>(() => WordNinja.Split(null!));
     }
 }
